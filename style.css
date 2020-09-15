@@ -1,0 +1,23 @@
+body{
+  background-color: gray;
+}
+
+
+
+.container{
+  display:grid;
+  grid-template-columns: 100px  500px 100px ;
+  grid-gap: 10px;
+}
+.item{
+
+  display: grid;
+  justify-content: center;
+  align-items:center;
+  border: 10px solid darkred;
+  border-radius: 2px;
+  font-size: 50px;
+  font-style: italic;
+  font-family: sans-serif;
+
+}
